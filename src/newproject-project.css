@@ -1,0 +1,115 @@
+.new-project-header button{
+    border: none;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px;
+}
+
+.input-title{
+    margin-top: 20px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    border: none;
+}
+
+.add-list img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.add-list button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: #f5f5f5;
+    border: 1px solid #000;
+    border-radius: 0px 5px;
+    margin: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 5px 8px 5px #000000;
+}
+
+.add-list button:hover{
+    background-color: #000;
+    color: #f5f5f5;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 0;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.list-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.input-list-title{
+    font-size: 15px;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.addlistnode{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.addlistnode:hover{
+    background-color: #000;
+    color: #f5f5f5;
+}
+
+.list-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-node{
+    margin: none;
+    border: 1px solid #000000;
+    border-top: none;
+}
+
+.input-list-node{
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
