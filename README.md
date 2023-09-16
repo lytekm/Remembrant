@@ -1,2 +1,2 @@
-Prototype for new app I'm creating. 
-Simple todo list, no backend or anything.
+Prototype of the front end of a new project.
+Full release available at https://membrant.netlify.app/
